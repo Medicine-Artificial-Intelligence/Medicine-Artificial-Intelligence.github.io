@@ -1,0 +1,37 @@
+name: Template sync
+
+on:
+  # cronjob trigger
+  schedule:
+    - cron: "0 0 1 * *"
+  # manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    # https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
+
+    steps:
+      # To use this repository's private action, you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          token: ${{ secrets.TEMPLATE_SYNC_TOKEN }}
+        # https://github.com/actions/checkout#usage
+        # uncomment if you use submodules within the repository
+        # with:
+        #   submodules: true
+
+      - name: actions-template-sync
+        uses: AndreasAugustin/actions-template-sync@v2
+        with:
+          target_gh_token: ${{ secrets.TEMPLATE_SYNC_TOKEN }}
+          source_repo_path: alshedivat/al-folio
+          upstream_branch: main # defaults to main
+          pr_labels: sync_template # defaults to template_sync
