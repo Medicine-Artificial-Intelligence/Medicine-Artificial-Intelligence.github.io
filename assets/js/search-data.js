@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-members",
+          title: "members",
+          description: "Members of our group",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/members/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -44,19 +44,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-members",
-          title: "members",
-          description: "Members of our group",
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/members/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/projects/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -399,7 +392,22 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "projects-project-1",
+      },{id: "members-tieu-long-phan",
+          title: 'Tieu Long Phan',
+          description: "PhD candidate - TACsy project",
+          section: "Members",handler: () => {
+              window.location.href = "/members/D13_TieuLongPhan/";
+            },},{id: "members-gia-bao-truong",
+          title: 'Gia-Bao Truong',
+          description: "MSc candidate - EMJM Chemoinformatics+ 2025-2027",
+          section: "Members",handler: () => {
+              window.location.href = "/members/D18_GiaBaoTruong/";
+            },},{id: "members-tuyen-ngoc-truong",
+          title: 'Tuyen Ngoc Truong',
+          description: "Associate Professor - Head of Department of Organic Chemistry",
+          section: "Members",handler: () => {
+              window.location.href = "/members/TuyenNgocTruong/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
