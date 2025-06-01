@@ -1,26 +1,65 @@
 ---
-layout: profiles
+layout: page
 permalink: /members/
 title: members
 description: Members of our group
 nav: true
-nav_order: 7
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image:
-    content: members_profiles/TuyenNgocTruong.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p style="text-align:center;">Assoc. Prof.</p>
-      <p style="text-align:center;">Tuyen Ngoc Truong</p>
-  - align: left
-    image: members/TieuLongPhan.jpeg
-    content: members_profiles/TieuLongPhan.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p style="text-align:center;">PhD. Reseacher</p>
-      <p style="text-align:center;">Tieu Long Phan</p>
+nav_order: 3
+display_categories: ["Supervisors", "Current members", "Alumini"]
+horizontal: false
 ---
+
+<!-- pages/members.md -->
+<div class="members">
+{% if page.display_categories %}
+  <!-- Display categorized members -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_members = site.members | where: "category", category %}
+  {% assign sorted_members = categorized_members | sort: "importance" %}
+  <!-- Generate cards for each member -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for member in sorted_members %}
+      {% include members_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for member in sorted_members %}
+      {% include members.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+{% else %}
+
+<!-- Display members without categories -->
+
+{% assign sorted_members = site.members | sort: "importance" %}
+
+  <!-- Generate cards for each member -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for member in sorted_members %}
+      {% include members_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for member in sorted_members %}
+      {% include members.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
