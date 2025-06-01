@@ -1,14 +1,29 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Medicine-Artificial-Intelligence
+  - TieuLongPhan
+  - tuyetminhphan
+  - buchijw
+  - trinhthechuong
+  - lelaihoangson
+  - Thanh-An-Pham
+  - phuocchung123
+  - ThinhUMP
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - TieuLongPhan/SynRBL
+  - TieuLongPhan/SynTemp
+  - TieuLongPhan/SynKit
+  - TieuLongPhan/SynUtils
+  - ThinhUMP/KGGraph
+  - ThinhUMP/PD1_PDL1
+  - buchijw/JTVAE-lolbo-VEGFR2
+  - buchijw/QSAR-VEGFR2
+  - buchijw/JTVAE-GA
+  - trinhthechuong/ML-ANN-GNN-for-Screening-potential-iALKs
+  - Medicine-Artificial-Intelligence/KSE-BCB2023-GNN-ALK
+  - Medicine-Artificial-Intelligence/HIV_IN_Classification_ML
+  - Medicine-Artificial-Intelligence/Apelin-Pharmacophore
+  - Medicine-Artificial-Intelligence/Apelin_Similarity_ANNRegressor_Docking
+  - Medicine-Artificial-Intelligence/Tubulin_virtual_screening
