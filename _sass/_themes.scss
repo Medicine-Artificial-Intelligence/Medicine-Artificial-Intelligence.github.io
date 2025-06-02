@@ -43,6 +43,9 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --medai-left: #0039cb;
+  --medai-right: #06ddcb;
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -113,6 +116,9 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+
+  --medai-left: #016dcc;
+  --medai-right: #06ddcb;
 
   .only-light {
     display: none;
