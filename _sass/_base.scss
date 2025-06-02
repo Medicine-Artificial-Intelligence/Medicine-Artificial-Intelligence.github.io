@@ -1418,3 +1418,9 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.medai {
+  background: linear-gradient(to right, var(--medai-left) 0%, var(--medai-right) 100%);
+  background-clip: text;
+  color: transparent;
+}
