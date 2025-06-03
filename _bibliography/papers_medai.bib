@@ -1,3 +1,19 @@
+@article{kgg,
+title = {KGG: Knowledge-Guided Graph Self-Supervised Learning to Enhance Molecular Property Predictions},
+bibtex_show={true},
+author = {To, Van-Thinh and Van-Nguyen, Phuoc-Chung and Truong, Gia-Bao and Phan, Tuyet-Minh and Phan, Tieu-Long and Fagerberg, Rolf and Stadler, Peter and Truong, Tuyen Ngoc},
+keywords = {Drug discovery, graph neural networks, knowledge graph, self-supervised learning, orbital information},
+doi={10.26434/chemrxiv-2025-0c3rz},
+year={2025},
+dimensions={true},
+abstract={Molecular property prediction has become essential in accelerating advancements in drug discovery and materials science. Graph Neural Networks have recently demonstrated remarkable success in molecular representation learning; however, their broader adoption is impeded by two significant challenges: (1) data scarcity and constrained model generalization due to the expensive and timeconsuming task of acquiring labeled data, and (2) inadequate initial node and edge features that fail to incorporate comprehensive chemical domain knowledge, notably orbital information. To address these limitations, we introduce a Knowledge-Guided Graph (KGG) framework employing self-supervised learning to pre-train models using orbital-level features in order to mitigate reliance on extensive labeled datasets. In addition, we propose novel representations for atomic hybridization and bond types that explicitly consider orbital engagement. Our pre-training strategy is cost-efficient, utilizing approximately 250,000 molecules from the ZINC15 dataset, in contrast to contemporary approaches that typically require between two and ten million molecules, consequently reducing the risk of potential data contamination. Extensive evaluations on diverse downstream molecular property datasets demonstrate that our method significantly outperforms state-of-the-art baselines. Complementary analyses, including t-SNE visualizations and comparisons with traditional molecular fingerprints, further validate the effectiveness and robustness of our proposed KGG approach.},
+abbr={ChemRxiv},
+journal={ChemRxiv},
+pdf={https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/68088e84e561f77ed461ef2d/original/kgg-knowledge-guided-graph-self-supervised-learning-to-enhance-molecular-property-predictions.pdf},
+preview={kgg.jpg},
+selected={true}
+}
+
 @article{vegfr2,
 abbr={ACS Omega},
 bibtex_show={true},
@@ -9,8 +25,8 @@ abstract = {In the development of anticancer medications, vascular endothelial g
 url={https://pubs.acs.org/doi/10.1021/acsomega.4c07689},
 journal={ACS Omega},
 year={2024},
+altmetric={true},
 dimensions={true},
-google_scholar_id={qjMakFHDy7sC},
 selected={true},
 pdf={https://pubs.acs.org/doi/pdf/10.1021/acsomega.4c07689},
 preview={VEGFR2_ACS_Omega.png},
@@ -25,7 +41,6 @@ keywords = {ALK, computer-aided drug design, artificial intelligence, machine le
 doi={10.26434/chemrxiv-2024-xpfm1},
 year={2024},
 altmetric={true},
-google_scholar_id={9yKSN-GCB0IC},
 dimensions={true},
 abstract={This study addresses the urgent need for novel Anaplastic lymphoma kinase (ALK) inhibitors in Non-Small Cell Lung Cancer (NSCLC) treatment, focusing on the ALK-positive mutation variant (5% of the cases). As only five Food and Drug Administration (FDA)-approved ALK inhibitors are on the market, the demand for effective drugs persists. Leveraging the power of Artificial Intelligence (AI) including machine learning (ML), and deep learning, our research aimed to expedite the screening of novel ALK inhibitors. Notably, the machine learning-based XGBoost algorithm exhibited compelling results with an external validation (EV)-f1 score of 0.921, and an EV-Average Precision (AP) of 0.961, alongside a cross-validation (CV)-f1 score of 0.888±0.039 and a CV-AP of 0.939±0.032. Besides, the deep learning-based Artificial Neural Network (ANN) model demonstrated excellent performance with an EV-f1 score of 0.930 and an EV-AP of 0.955, complemented by a CV-f1 score of 0.891±0.037 and a CV-AP of 0.934±0.040. The present study undertook a comparative analysis between the traditional ML models, the ANN model, and the Graph Neural Network (GNN) model, which is a product of our recent research endeavors. The findings reveal that, despite the advancements in neural network models, traditional machine learning models exhibited superior performance over the GNN model. During this research, these models were employed in conjunction with a consensus molecular docking model to screen a total of 120,571 compounds virtually, leading to the identification of three promising ALK inhibitors: CHEMBL1689515, CHEMBL2380351, and CHEMBL102714. The study recommends further molecular dynamic simulations, in vitro tests, target-specific experimental data acquisition for active learning, and application of advanced AI models like geometric interaction GNN and generative AI for molecular optimization.},
 abbr={ChemRxiv},
@@ -49,7 +64,6 @@ url={https://ieeexplore.ieee.org/document/10299477},
 abstract={Anaplastic lymphoma kinase (ALK), a tyrosine kinase receptor, is identified as a crucial target in the progression of anticancer therapeutics for non-small cell lung cancer. This study has executed a Graph Neural Network (GNN) model and compared it with three machine learning (ML) models based on fingerprints for rapid anticancer bioactivity prediction. ALK inhibitors with IC50 values were extracted from the REAXYS database. Following preprocessing, these inhibitors constituted a dataset of 1664 molecules. Subsequently, GNN and ML models were constructed on a training set. The generalizability of these models was assessed by internal and external validation procedures. The graph neural network model yielded promising results, with an average precision of 0.879±0.041 and an F1 score of 0.804±0.049 in cross-validation. In external validation, the model achieved an average precision of 0.938 and an F1 score of 0.863, surpassing the results of the ML models. Therefore, we can infer that the predictive model developed using the GNN is apt for the problem at hand and can be utilized to predict the biological activity of novel ALK inhibitors.},
 dimensions={true},
 abbr={KSE 2023},
-google_scholar_id={u-x6o8ySG0sC},
 preview={KSE.png}
   }
 
