@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tieu Long Phan
-description: PhD candidate - TACsy project
+description: TACsy Doctoral researcher - DCQ2013
 img: assets/img/members/D13_TieuLongPhan.jpeg
 importance: 2
 category: Supervisors

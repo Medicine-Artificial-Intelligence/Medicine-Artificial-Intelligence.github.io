@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Gia-Bao Truong
-description: MSc candidate - EMJM Chemoinformatics+ 2025-2027
+description: MSc candidate - EMJM Chemoinformatics+ 2025-2027 - DCQ2018
 img: assets/img/members/D18_GiaBaoTruong.jpg
-importance: 1
+importance: 2
 category: "Current members"
 related_publications: false
 ---
