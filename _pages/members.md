@@ -4,7 +4,7 @@ permalink: /members/
 title: members
 description: Members of our group
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: ["Supervisors", "Current members", "Alumini"]
 horizontal: false
 ---

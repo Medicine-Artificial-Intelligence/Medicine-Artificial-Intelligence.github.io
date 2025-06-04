@@ -15,7 +15,7 @@ footer_text: >
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: medai, cheminformatics, chemistry, artificial-intelligence # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /logos/medai_logo.png #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /logos/medai_logo_white.png #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Medicine-Artificial-Intelligence.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -149,7 +149,7 @@ collections:
       layout: post
     output: false
   projects:
-    output: false
+    output: true
   members:
     output: true
 
@@ -196,10 +196,10 @@ exclude:
   - _pages/books.md
   - _pages/cv.md
   - _pages/teaching.md
-  - _pages/projects.md
+  # - _pages/projects.md
   - _pages/news.md
   # - _posts/
-  - _projects/
+  # - _projects/
   - _news/
   - _books/
   - _pages/profiles.md

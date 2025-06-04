@@ -5,6 +5,11 @@ description: Associate Professor - Head of Department of Organic Chemistry
 img: assets/img/members/TuyenNgocTruong.jpg
 importance: 1
 category: Supervisors
+website:
+github:
+email: truongtuyen@ump.edu.vn
+linkedin:
+orcid:
 related_publications: false
 ---
 

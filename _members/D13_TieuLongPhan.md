@@ -5,6 +5,11 @@ description: TACsy Doctoral researcher - DCQ2013
 img: assets/img/members/D13_TieuLongPhan.jpeg
 importance: 2
 category: Supervisors
+website: https://tieulongphan.github.io
+github: TieuLongPhan
+email: long.tieu_phan@uni-leipzig.de
+linkedin: tieu-long-phan-b225331a5
+orcid: 0000-0002-3532-2064
 related_publications: false
 ---
 

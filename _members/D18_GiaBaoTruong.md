@@ -5,6 +5,11 @@ description: MSc candidate - EMJM Chemoinformatics+ 2025-2027 - DCQ2018
 img: assets/img/members/D18_GiaBaoTruong.jpg
 importance: 2
 category: "Current members"
+website: https://buchijw.com
+github: buchijw
+email: giabaojw@gmail.com
+linkedin: gia-bao-truong-buchijw
+orcid: 0009-0001-5379-1593
 related_publications: false
 ---
 
