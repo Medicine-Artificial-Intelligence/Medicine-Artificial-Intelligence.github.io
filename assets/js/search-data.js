@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Our research projects",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-members",
           title: "members",
           description: "Members of our group",
@@ -30,33 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/members/";
           },
-        },{id: "dropdown-posts",
-              title: "posts",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/posts/";
-              },
-            },{id: "dropdown-repositories",
+        },{id: "dropdown-repositories",
               title: "repositories",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/repositories/";
-              },
-            },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/publications/";
-              },
-            },{id: "dropdown-members",
-              title: "members",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/members/";
               },
             },{id: "dropdown-contact-us",
               title: "contact us",
@@ -145,6 +131,21 @@ ninja.data = [{
           description: "Associate Professor - Head of Department of Organic Chemistry",
           section: "Members",handler: () => {
               window.location.href = "/members/TuyenNgocTruong/";
+            },},{id: "projects-dissertations-amp-theses",
+          title: 'Dissertations &amp;amp; Theses',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/DissertationsTheses/";
+            },},{id: "projects-medical-education-for-the-future-mef-generative-ai-study-multi-objective-approach-toward-de-novo-design-of-dual-egfr-and-vegfr-inhibitors",
+          title: 'Medical Education for the Future (MEF): Generative AI study: Multi-objective approach toward de...',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MEF1/";
+            },},{id: "projects-medical-education-for-the-future-mef-prodock-a-comprehensive-automated-framework-for-molecular-docking-and-validation-for-small-molecules-and-peptides",
+          title: 'Medical Education for the Future (MEF): ProDock: A Comprehensive Automated Framework for Molecular...',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MEF2/";
             },},{
         id: 'social-email',
         title: 'email',
