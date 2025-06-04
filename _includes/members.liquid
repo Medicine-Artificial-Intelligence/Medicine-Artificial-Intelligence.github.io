@@ -13,12 +13,26 @@
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ member.title }}</h2>
-        <p class="card-text">{{ member.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
+        <p class="card-text" style="color: var(--global-card-text-color);">{{ member.description }}</p>
+        <div class="row ml-1 mr-1 p-1 justify-content-center">
+          {% if member.website %}
+            <div class="mx-2 website-icon">
+              <div class="icon" data-toggle="tooltip" title="Homepage: {{ member.website }}">
+                <a href="{{ member.website }}"><i class="fa-solid fa-house-chimney"></i></a>
+              </div>
+            </div>
+          {% endif %}
+          {% if member.email %}
+            <div class="mx-2 email-icon">
+              <div class="icon" data-toggle="tooltip" title="Email: {{ member.email }}">
+                <a href="mailto:{{ member.email }}"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          {% endif %}
           {% if member.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ member.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+            <div class="mx-2 github-icon">
+              <div class="icon" data-toggle="tooltip" title="Github: {{ member.github }}">
+                <a href="https://github.com/{{ member.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
               </div>
               {% if member.github_stars %}
                 <span class="stars" data-toggle="tooltip" title="GitHub Stars">
@@ -26,6 +40,20 @@
                   <span id="{{ member.github_stars }}-stars"></span>
                 </span>
               {% endif %}
+            </div>
+          {% endif %}
+          {% if member.linkedin %}
+            <div class="mx-2 linkedin-icon">
+              <div class="icon" data-toggle="tooltip" title="LinkedIn: {{ member.linkedin }}">
+                <a href="https://www.linkedin.com/in/{{ member.linkedin }}"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          {% endif %}
+          {% if member.orcid %}
+            <div class="mx-2 orcid-icon">
+              <div class="icon" data-toggle="tooltip" title="ORCID: {{ member.orcid }}">
+                <a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid"></i></a>
+              </div>
             </div>
           {% endif %}
         </div>
