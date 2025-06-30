@@ -2,7 +2,7 @@
 layout: page
 title: Tieu Long Phan
 description: TACsy Doctoral researcher - DCQ2013
-img: assets/img/members/D13_TieuLongPhan.jpeg
+img: assets/img/members/D13_TieuLongPhan.jpg
 importance: 2
 category: Supervisors
 website: https://tieulongphan.github.io
