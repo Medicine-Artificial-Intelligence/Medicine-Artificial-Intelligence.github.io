@@ -68,7 +68,7 @@ ninja.data = [{
               window.location.href = "/members/D18_GiaBaoTruong/";
             },},{id: "members-lai-hoang-son-le",
           title: 'Lai Hoang Son Le',
-          description: "DCQ2018",
+          description: "Texas A&amp;M University PhD candidate in Chemistry -  DCQ2018",
           section: "Members",handler: () => {
               window.location.href = "/members/D18_LaiHoangSonLe/";
             },},{id: "members-the-chuong-trinh",
