@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gia-Bao Truong
-description: MSc candidate - EMJM Chemoinformatics+ 2025-2027 - DCQ2018
+description: MSc candidate - EMJM Chemoinformatics+ 2025-2027
 img: assets/img/members/D18_GiaBaoTruong.jpg
 importance: 2
 category: "Current members"
@@ -10,6 +10,7 @@ github: buchijw
 email: giabaojw@gmail.com
 linkedin: gia-bao-truong-buchijw
 orcid: 0009-0001-5379-1593
+google_scholar: KcpYBy8AAAAJ
 related_publications: false
 ---
 
@@ -21,7 +22,7 @@ related_publications: false
     <div class="col-sm-2"></div>
 </div>
 
-I am currently a Research Assistant in Cheminformatics in MedAI team, Department of Organic Chemistry, Faculty of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City (UMP).
+I am currently a Master's student in *Erasmus Mundus Joint Master ChEMoinformatics+ (2025-2027) - In Silico Drug Design*, as well as a Research Assistant in Cheminformatics in MedAI team, Department of Organic Chemistry, School of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City (UMP).
 
 My research interest lies in the application of deep learning to de novo drug design and discovery. I am currently exploring the implementation of deep generative models, particularly variational autoencoders (VAEs), in this field. My bachelor’s thesis is a testament to this, as it focuses on the use of VAE models and Bayesian optimization, in conjunction with traditional drug discovery tools such as QSAR and Molecular docking, to identify new potential drug candidates with real-world applications. I seek to contribute to the advancement of this domain through novel approaches and applications.
 

@@ -56,6 +56,13 @@
               </div>
             </div>
           {% endif %}
+          {% if member.google_scholar %}
+            <div class="mx-2 google-scholar-icon">
+              <div class="icon" data-toggle="tooltip" title="Google Scholar: {{ member.google_scholar }}">
+                <a href="https://scholar.google.com/citations?user={{ member.google_scholar }}"><i class="ai ai-google-scholar"></i></a>
+              </div>
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>

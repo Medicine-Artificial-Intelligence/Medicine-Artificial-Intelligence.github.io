@@ -3,7 +3,7 @@ layout: page
 title: Khanh-Vy Vo-Nguyen
 description: DCQ2019
 img:
-importance: 1
+importance: 2
 category: Alumini
 website:
 github:
@@ -13,4 +13,3 @@ orcid:
 related_publications: false
 ---
 
-Pending

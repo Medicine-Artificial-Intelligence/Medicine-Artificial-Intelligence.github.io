@@ -3,8 +3,8 @@ layout: page
 permalink: /contacts/
 title: contact us
 description:
-nav: false
-nav_order: 6
+nav: true
+nav_order: 5
 ---
 
 We prefer communication via email. For direct contact with other members, please visit our <a href="/members"><u>members page</u></a>.
@@ -19,7 +19,7 @@ We prefer communication via email. For direct contact with other members, please
 
 # Assoc. Prof. Tuyen Ngoc Truong
 
-Head of Department of Organic Chemistry, Faculty of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City (UMP)
+Head of Department of Organic Chemistry, School of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City (UMP)
 
 <a href="mailto:truongtuyen@ump.edu.vn" title="email"><i class="fa-solid fa-envelope"></i> Email: truongtuyen@ump.edu.vn</a>
 

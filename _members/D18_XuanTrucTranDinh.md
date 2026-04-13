@@ -3,7 +3,7 @@ layout: page
 title: Xuan-Truc Tran-Dinh
 description: DCQ2018
 img:
-importance: 2
+importance: 3
 category: Alumini
 website:
 github:
@@ -13,4 +13,3 @@ orcid:
 related_publications: false
 ---
 
-Pending

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tieu Long Phan
-description: TACsy Doctoral researcher - DCQ2013
+description: TACsy MSCA Doctoral Network, Leipzig University / University of Southern Denmark, 2023–2026
 img: assets/img/members/D13_TieuLongPhan.jpg
 importance: 2
 category: Supervisors
