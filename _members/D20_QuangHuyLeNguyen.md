@@ -26,4 +26,3 @@ related_publications: false
 <a href="https://github.com/huy752" title="GitHub"><i class="fa-brands fa-github"></i> huy752</a>
 
 <a href="https://orcid.org/0009-0008-2980-7760" title="ORCID"><i class="ai ai-orcid"></i> 0009-0008-2980-7760</a>
-

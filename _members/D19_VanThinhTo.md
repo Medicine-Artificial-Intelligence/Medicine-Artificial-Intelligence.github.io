@@ -30,4 +30,3 @@ My research interest spans the fields of computer-aided drug design and computer
 <a href="https://www.linkedin.com/in/thinhtovan" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> thinhtovan</a>
 
 <a href="https://orcid.org/0000-0002-7640-0807" title="ORCID"><i class="ai ai-orcid"></i> 0000-0002-7640-0807</a>
-

@@ -26,4 +26,3 @@ latest_posts:
 ---
 
 **MedAI Research Group** was founded in _August 2021_ at Department of Organic Chemistry, School of Pharmacy, [University of Medicine and Pharmacy at Ho Chi Minh City (UMP)](https://ump.edu.vn). We aim to develop and apply artificial intelligence to chemistry, drug design and discovery.
-

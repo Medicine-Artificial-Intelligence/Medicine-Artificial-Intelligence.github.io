@@ -24,4 +24,3 @@ related_publications: false
 <a href="https://github.com/Thanh-An-Pham" title="GitHub"><i class="fa-brands fa-github"></i> Thanh-An-Pham</a>
 
 <a href="https://orcid.org/0000-0003-0271-2696" title="ORCID"><i class="ai ai-orcid"></i> 0000-0003-0271-2696</a>
-
