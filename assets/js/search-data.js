@@ -37,43 +37,36 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/members/";
           },
-        },{id: "dropdown-repositories",
-              title: "repositories",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/repositories/";
-              },
-            },{id: "dropdown-contact-us",
-              title: "contact us",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/contacts/";
-              },
-            },{id: "members-tieu-long-phan",
+        },{id: "nav-contact-us",
+          title: "contact us",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contacts/";
+          },
+        },{id: "members-tieu-long-phan",
           title: 'Tieu Long Phan',
-          description: "TACsy Doctoral researcher - DCQ2013",
+          description: "TACsy MSCA Doctoral Network, Leipzig University / University of Southern Denmark, 2023–2026",
           section: "Members",handler: () => {
               window.location.href = "/members/D13_TieuLongPhan/";
             },},{id: "members-tuyet-minh-phan",
           title: 'Tuyet-Minh Phan',
-          description: "CH2023 - DCQ2017",
+          description: "TACsy MSCA Doctoral Network, Leipzig University / University of Vienna, 2025-2028",
           section: "Members",handler: () => {
               window.location.href = "/members/D17_TuyetMinhPhan/";
             },},{id: "members-gia-bao-truong",
           title: 'Gia-Bao Truong',
-          description: "MSc candidate - EMJM Chemoinformatics+ 2025-2027 - DCQ2018",
+          description: "MSc candidate - EMJM Chemoinformatics+ 2025-2027",
           section: "Members",handler: () => {
               window.location.href = "/members/D18_GiaBaoTruong/";
             },},{id: "members-lai-hoang-son-le",
           title: 'Lai Hoang Son Le',
-          description: "Texas A&amp;M University PhD candidate in Chemistry -  DCQ2018",
+          description: "Texas A&amp;M University PhD candidate in Chemistry",
           section: "Members",handler: () => {
               window.location.href = "/members/D18_LaiHoangSonLe/";
             },},{id: "members-the-chuong-trinh",
           title: 'The-Chuong Trinh',
-          description: "DCQ2018",
+          description: "CEA PhD candidate in Bioinformatics",
           section: "Members",handler: () => {
               window.location.href = "/members/D18_TheChuongTrinh/";
             },},{id: "members-xuan-truc-tran-dinh",
@@ -81,11 +74,6 @@ ninja.data = [{
           description: "DCQ2018",
           section: "Members",handler: () => {
               window.location.href = "/members/D18_XuanTrucTranDinh/";
-            },},{id: "members-van-phuoc-chung-nguyen",
-          title: 'Van Phuoc Chung Nguyen',
-          description: "DCQ2019",
-          section: "Members",handler: () => {
-              window.location.href = "/members/D19-VanPhuocChungNguyen/";
             },},{id: "members-khanh-vy-vo-nguyen",
           title: 'Khanh-Vy Vo-Nguyen',
           description: "DCQ2019",
@@ -93,44 +81,94 @@ ninja.data = [{
               window.location.href = "/members/D19_KhanhVyVoNguyen/";
             },},{id: "members-thanh-an-pham",
           title: 'Thanh-An Pham',
-          description: "MSc candidate - EMJM Chemoinformatics+ 2024-2026 - DCQ2019",
+          description: "MSc candidate - EMJM Chemoinformatics+ 2024-2026",
           section: "Members",handler: () => {
               window.location.href = "/members/D19_ThanhAnPham/";
+            },},{id: "members-van-phuoc-chung-nguyen",
+          title: 'Van Phuoc Chung Nguyen',
+          description: "DCQ2019",
+          section: "Members",handler: () => {
+              window.location.href = "/members/D19_VanPhuocChungNguyen/";
             },},{id: "members-van-thinh-to",
           title: 'Van-Thinh To',
-          description: "MSc candidate - EMJM Chemoinformatics+ 2025-2027 - DCQ2019",
+          description: "MSc candidate - EMJM Chemoinformatics+ 2025-2027",
           section: "Members",handler: () => {
               window.location.href = "/members/D19_VanThinhTo/";
             },},{id: "members-dong-nghi-nguyen-hoang",
           title: 'Dong-Nghi Nguyen-Hoang',
           description: "DCQ2020",
           section: "Members",handler: () => {
-              window.location.href = "/members/D20-DongNghiNguyenHoang/";
+              window.location.href = "/members/D20_DongNghiNguyenHoang/";
             },},{id: "members-hoang-huy-nguyen",
           title: 'Hoang-Huy Nguyen',
           description: "DCQ2020",
           section: "Members",handler: () => {
-              window.location.href = "/members/D20-HoangHuyNguyen/";
+              window.location.href = "/members/D20_HoangHuyNguyen/";
             },},{id: "members-ngoc-tam-tran-nguyen",
           title: 'Ngoc-Tam Tran-Nguyen',
           description: "DCQ2020",
           section: "Members",handler: () => {
-              window.location.href = "/members/D20-NgocTamTranNguyen/";
+              window.location.href = "/members/D20_NgocTamTranNguyen/";
             },},{id: "members-nhu-ngoc-nguyen-song",
           title: 'Nhu-Ngoc Nguyen-Song',
           description: "DCQ2020",
           section: "Members",handler: () => {
-              window.location.href = "/members/D20-NhuNgocNguyenSong/";
+              window.location.href = "/members/D20_NhuNgocNguyenSong/";
             },},{id: "members-quang-huy-le-nguyen",
           title: 'Quang-Huy Le-Nguyen',
           description: "DCQ2020",
           section: "Members",handler: () => {
-              window.location.href = "/members/D20-QuangHuyLeNguyen/";
+              window.location.href = "/members/D20_QuangHuyLeNguyen/";
             },},{id: "members-tuyen-ngoc-truong",
           title: 'Tuyen Ngoc Truong',
           description: "Associate Professor - Head of Department of Organic Chemistry",
           section: "Members",handler: () => {
               window.location.href = "/members/TuyenNgocTruong/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-project-2",
+          title: 'project 2',
+          description: "a project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-project-3-with-very-long-name",
+          title: 'project 3 with very long name',
+          description: "a project that redirects to another website",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-project-4",
+          title: 'project 4',
+          description: "another without an image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-project-5",
+          title: 'project 5',
+          description: "a project with a background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-project-6",
+          title: 'project 6',
+          description: "a project with no image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-project-7",
+          title: 'project 7',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{id: "projects-dissertations-amp-theses",
           title: 'Dissertations &amp;amp; Theses',
           description: "",
