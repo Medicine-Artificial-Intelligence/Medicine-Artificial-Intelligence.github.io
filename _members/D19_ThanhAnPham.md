@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Thanh-An Pham
-description: MSc candidate - EMJM Chemoinformatics+ 2024-2026 - DCQ2019
+description: MSc candidate - EMJM Chemoinformatics+ 2024-2026
 img: assets/img/members/D19_ThanhAnPham.jpg
 importance: 3
 category: "Current members"
 website:
-github:
+github: Thanh-An-Pham
 email:
 linkedin:
-orcid:
+orcid: 0000-0003-0271-2696
 related_publications: false
 ---
 
@@ -21,4 +21,6 @@ related_publications: false
     <div class="col-sm-2"></div>
 </div>
 
-Pending
+<a href="https://github.com/Thanh-An-Pham" title="GitHub"><i class="fa-brands fa-github"></i> Thanh-An-Pham</a>
+
+<a href="https://orcid.org/0000-0003-0271-2696" title="ORCID"><i class="ai ai-orcid"></i> 0000-0003-0271-2696</a>

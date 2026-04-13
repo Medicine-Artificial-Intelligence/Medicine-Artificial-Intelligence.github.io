@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tuyet-Minh Phan
-description: CH2023 - DCQ2017
+description: TACsy MSCA Doctoral Network, Leipzig University / University of Vienna, 2025-2028
 img: assets/img/members/D17_TuyetMinhPhan.jpeg
 importance: 1
 category: "Current members"
@@ -21,7 +21,7 @@ related_publications: false
     <div class="col-sm-2"></div>
 </div>
 
-I am currently completing my master's degree (expected Aug 2025) at the University of Medicine and Pharmacy, Ho Chi Minh City, where I focus on computational applications in chemistry and biology. My research interests centre on cheminformatics, including synthesis planning and molecular properties prediction, drawing on a broad foundation in organic and medicinal chemistry as well as advanced machine-learning techniques for computer-aided drug design.
+Tuyet-Minh Phan holds a Bachelor’s degree as well as a Master’s Degree in Pharmacy, focusing on Cheminformatics and Drug Discovery. Her research interests center on cheminformatics, including (but not limited to) synthesis planning and molecular properties prediction, drawing on a broad foundation in organic and medicinal chemistry as well as advanced machine-learning techniques for computer-aided drug design.
 
 <a href="mailto:tuyetminh.work@gmail.com" title="email"><i class="fa-solid fa-envelope"></i> tuyetminh.work@gmail.com</a>
 
