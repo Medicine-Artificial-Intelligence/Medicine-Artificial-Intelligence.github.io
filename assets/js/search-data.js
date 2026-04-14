@@ -169,19 +169,14 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-dissertations-amp-theses",
-          title: 'Dissertations &amp;amp; Theses',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/DissertationsTheses/";
-            },},{id: "projects-medical-education-for-the-future-mef-generative-ai-study-multi-objective-approach-toward-de-novo-design-of-dual-egfr-and-vegfr-inhibitors",
-          title: 'Medical Education for the Future (MEF): Generative AI study: Multi-objective approach toward de...',
-          description: "",
+            },},{id: "projects-medical-education-for-the-future-mef-1",
+          title: 'Medical Education for the Future (MEF) 1',
+          description: "Generative AI study: Multi-objective approach toward de novo design of dual EGFR and VEGFR inhibitors",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MEF1/";
-            },},{id: "projects-medical-education-for-the-future-mef-prodock-a-comprehensive-automated-framework-for-molecular-docking-and-validation-for-small-molecules-and-peptides",
-          title: 'Medical Education for the Future (MEF): ProDock: A Comprehensive Automated Framework for Molecular...',
-          description: "",
+            },},{id: "projects-medical-education-for-the-future-mef-2",
+          title: 'Medical Education for the Future (MEF) 2',
+          description: "ProDock: A Comprehensive Automated Framework for Molecular Docking and Validation for Small Molecules and Peptides",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MEF2/";
             },},{
