@@ -217,6 +217,7 @@ exclude:
   - _news/
   - _books/
   - _pages/profiles.md
+  - _projects/DissertationsTheses.md
 keep_files:
   - CNAME
   - .nojekyll

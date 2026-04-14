@@ -39,3 +39,13 @@ My research interest lies in the application of deep learning to de novo drug de
 <a href="https://orcid.org/0009-0001-5379-1593" title="ORCID"><i class="ai ai-orcid"></i> 0009-0001-5379-1593</a>
 
 <a href="https://scholar.google.com/citations?user=KcpYBy8AAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i> Gia-Bao Truong</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Gia-Bao*] %}
+
+</div>

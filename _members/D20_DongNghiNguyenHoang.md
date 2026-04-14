@@ -13,4 +13,12 @@ orcid:
 related_publications: false
 ---
 
-Pending
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Dong-Nghi*] %}
+
+</div>

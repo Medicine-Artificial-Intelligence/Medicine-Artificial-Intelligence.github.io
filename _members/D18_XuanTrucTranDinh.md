@@ -12,3 +12,13 @@ linkedin:
 orcid:
 related_publications: false
 ---
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Xuan-Truc*] %}
+
+</div>

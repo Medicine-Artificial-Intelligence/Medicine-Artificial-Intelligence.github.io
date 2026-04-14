@@ -26,3 +26,13 @@ related_publications: false
 <a href="https://github.com/ngtm165" title="GitHub"><i class="fa-brands fa-github"></i> ngtm165</a>
 
 <a href="https://orcid.org/0009-0004-3893-0497" title="ORCID"><i class="ai ai-orcid"></i> 0009-0004-3893-0497</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Ngoc-Tam*] %}
+
+</div>

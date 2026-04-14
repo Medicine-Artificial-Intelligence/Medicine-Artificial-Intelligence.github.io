@@ -1,12 +1,19 @@
 ---
 layout: page
 title: >
-  <p>Medical Education for the Future (MEF): ProDock: A Comprehensive Automated Framework for Molecular Docking and Validation for Small Molecules and Peptides</p>
-description:
+  Medical Education for the Future (MEF) 2
+description: >
+  ProDock: A Comprehensive Automated Framework for Molecular Docking and Validation for Small Molecules and Peptides
 img:
 importance: 1
 category: On-going
-related_publications: true
+related_publications: false
 ---
 
-Reserved
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[project=mef2] %}
+
+</div>

@@ -13,8 +13,11 @@ dimensions={true},
 altmetric={true},
 abbr={ChemRxiv},
 pdf={https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-l6j8v},
-preview={proqsar.pdf},
-selected={true}}
+preview={proqsar.png},
+selected={true},
+project={mef1},
+author_abbr={Tuyet-Minh, Tieu-Long, Phuoc-Chung, Hoang-Son, Van-Thinh, Tuyen-Ngoc, Daniel, Peter}
+}
 
 @article{SynCat,
 author ="Van Nguyen, Phuoc-Chung and To, Van-Thinh and Nguyen Tran, Ngoc-Vi and Phan, Tieu-Long and Truong, Tuyen Ngoc and Gärtner, Thomas and Merkle, Daniel and Stadler, Peter F.",
@@ -32,8 +35,9 @@ dimensions={true},
 altmetric={true},
 abbr={Digital Discovery},
 pdf={https://pubs.rsc.org/en/content/articlepdf/2026/dd/d5dd00367a},
-preview={syncat.pdf},
-selected={true}
+preview={syncat.png},
+selected={true},
+author_abbr={Phuoc-Chung, Van-Thinh, Ngoc-Vi, Tieu-Long, Tuyen-Ngoc, Thomas, Daniel, Peter}
 }
 
 @article{kgg,
@@ -54,7 +58,9 @@ altmetric={true},
 abbr={JCIM},
 pdf={https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.5c01068},
 preview={kgg.jpg},
-selected={true}
+selected={true},
+project={mef1},
+author_abbr={Van-Thinh, Phuoc-Chung, Gia-Bao, Tuyet-Minh, Tieu-Long, Rolf, Peter, Tuyen-Ngoc}
 }
 
 @article{vegfr2,
@@ -73,7 +79,30 @@ dimensions={true},
 selected={true},
 pdf={https://pubs.acs.org/doi/pdf/10.1021/acsomega.4c07689},
 preview={VEGFR2_ACS_Omega.png},
-code={https://github.com/buchijw/JTVAE-lolbo-VEGFR2}
+code={https://github.com/buchijw/JTVAE-lolbo-VEGFR2},
+project={mef1},
+author_abbr={Gia-Bao, Thanh-An, Van-Thinh, Hoang-Son, Phuoc-Chung, The-Chuong, Tieu-Long, Tuyen-Ngoc}
+}
+
+@article{pdl1,
+author = {To, Van-Thinh and Phan, Tieu-Long and Ngoc Doan, Bao-Vy and Van Nguyen, Phuoc-Chung and Nguyen Le, Quang-Huy and Nguyen, Hoang-Huy and Trinh, The-Chuong and Truong, Tuyen Ngoc},
+title = {Innovative virtual screening of PD-L1 inhibitors: the synergy of molecular similarity, neural networks and GNINA docking},
+journal = {Future Medicinal Chemistry},
+volume = {16},
+number = {20},
+pages = {2107--2118},
+year = {2024},
+publisher = {Taylor \& Francis},
+doi = {10.1080/17568919.2024.2389773},
+note ={PMID: 39230480},
+abstract = {Aims: Immune checkpoint inhibitors targeting PD-L1 are crucial in cancer research for preventing cancer cells from evading the immune system. Materials \&amp; methods: This study developed a screening model combining ANN, molecular similarity, and GNINA 1.0 docking to target PD-L1. A database of 2044 substances was compiled from patents. Results: For molecular similarity, the AVALON emerged as the most effective fingerprint, demonstrating an AUC-ROC of 0.963. The ANN model outperformed the Random Forest and\&nbsp;Support Vector Classifier in cross-validation and external validation, achieving an average precision of 0.851 and an F1 score of 0.790. GNINA 1.0 was validated through redocking and retrospective control, achieving an AUC of 0.975. Conclusions: From 15235 DrugBank compounds, 22 candidates were shortlisted. Among which (3S)-1-(4-acetylphenyl)-5-oxopyrrolidine-3-carboxylic acid emerged as the most promising. A similarity model was employed to screen for potential PD-L1 inhibitors. GNINA 1.0 molecular docking, which leverages Convolutional Neural Networks, was utilized. A docking score threshold was determined from retrospective control. The Artificial Neural Networks model outperformed the Random Forest and Support Vector Classifier. A repurposing dataset was used as the screening dataset. Consequently, 22 candidates were identified.},
+bibtex_show={true},
+dimensions={true},
+altmetric={true},
+abbr={FMC},
+preview={pdl1.jpg},
+selected={false},
+author_abbr={Van-Thinh, Tieu-Long, Bao-Vy, Phuoc-Chung, Quang-Huy, Hoang-Huy, The-Chuong, Tuyen-Ngoc}
 }
 
 @article{alk,
@@ -95,7 +124,8 @@ altmetric={true},
 dimensions={true},
 selected={true},
 abbr={JCAMD},
-preview={ALK.png}
+preview={ALK.png},
+author_abbr={The-Chuong, Tieu-Long, Van-Thinh, Thanh-An, Gia-Bao, Hoang-Son, Xuan-Truc, Tuyen-Ngoc}
 }
 
 @INPROCEEDINGS{kse,
@@ -113,9 +143,28 @@ url={https://ieeexplore.ieee.org/document/10299477},
 abstract={Anaplastic lymphoma kinase (ALK), a tyrosine kinase receptor, is identified as a crucial target in the progression of anticancer therapeutics for non-small cell lung cancer. This study has executed a Graph Neural Network (GNN) model and compared it with three machine learning (ML) models based on fingerprints for rapid anticancer bioactivity prediction. ALK inhibitors with IC50 values were extracted from the REAXYS database. Following preprocessing, these inhibitors constituted a dataset of 1664 molecules. Subsequently, GNN and ML models were constructed on a training set. The generalizability of these models was assessed by internal and external validation procedures. The graph neural network model yielded promising results, with an average precision of 0.879±0.041 and an F1 score of 0.804±0.049 in cross-validation. In external validation, the model achieved an average precision of 0.938 and an F1 score of 0.863, surpassing the results of the ML models. Therefore, we can infer that the predictive model developed using the GNN is apt for the problem at hand and can be utilized to predict the biological activity of novel ALK inhibitors.},
 dimensions={true},
 abbr={KSE 2023},
-preview={KSE.png}
-  }
+preview={KSE.png},
+author_abbr={The-Chuong, Tieu-Long, Van-Thinh, Gia-Bao, Thanh-An, Hoang-Son, Phuoc-Chung, Tuyen-Ngoc}
+}
 
+@ARTICLE{butina,
+AUTHOR={Tran, Xuan-Truc Dinh  and Phan, Tieu-Long  and To, Van-Thinh  and Tran, Ngoc-Vi Nguyen  and Nguyen, Nhu-Ngoc Song  and Nguyen, Dong-Nghi Hoang  and Tran, Ngoc-Tam Nguyen  and Truong, Tuyen Ngoc },
+TITLE={Integration of the Butina algorithm and ensemble learning strategies for the advancement of a pharmacophore ligand-based model: an in silico investigation of apelin agonists},
+JOURNAL={Frontiers in Chemistry},
+VOLUME={Volume 12 - 2024},
+YEAR={2024},
+DOI={10.3389/fchem.2024.1382319},
+ISSN={2296-2646},
+ABSTRACT={3D pharmacophore models describe the ligand’s chemical interactions in their bioactive conformation. They offer a simple but sophisticated approach to decipher the chemically encoded ligand information, making them a valuable tool in drug design. Our research summarized the key studies for applying 3D pharmacophore models in virtual screening for 6944 compounds of APJ receptor agonists. Recent advances in clustering algorithms and ensemble methods have enabled classical pharmacophore modeling to evolve into more flexible and knowledge-driven techniques. Butina clustering categorizes molecules based on their structural similarity (indicated by the Tanimoto coefficient) to create a structurally diverse training dataset. The learning method combines various individual pharmacophore models into a set of pharmacophore models for pharmacophore space optimization in virtual screening. This approach was evaluated on Apelin datasets and afforded good screening performance, as proven by Receiver Operating Characteristic (AUC score of 0.994 ± 0.007), enrichment factor of  (EF1\% of 50.07±0.211), Güner-Henry score of 0.956 ± 0.015 , and F-measure of 0.911 ± 0.031. Although one of the high-scoring models achieved statistically superior results in each dataset (AUC of 0.82; an EF1% of 19.466; GH of 0.131 and F1-score of 0.071), the ensemble learning method including voting and stacking method balanced the shortcomings of each model and passed with close performance measures.},
+bibtex_show={true},
+dimensions={true},
+altmetric={true},
+abbr={FiC},
+pdf={https://public-pages-files-2025.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2024.1382319/pdf},
+preview={butina.png},
+selected={false},
+author_abbr={Xuan-Truc, Tieu-Long, Van-Thinh, Ngoc-Vi, Nhu-Ngoc, Dong-Nghi, Ngoc-Tam, Tuyen-Ngoc}
+}
 
 @misc{afps2023_vegfr2,
 bibtex_show={true},
@@ -125,7 +174,8 @@ year = {2023},
 additional_info         = {Asian Federation for Pharmaceutical Sciences 2023, Ha Noi, Vietnam (Poster presenter)},
 abbr={AFPS 2023},
 poster={AFPS2023-Gia-Bao_Truong-JTVAE-GA.pdf},
-preview={Gia-Bao_Truong_AFPS.png}
+preview={Gia-Bao_Truong_AFPS.png},
+author_abbr={Gia-Bao, Thanh-An, Van-Thinh, Hoang-Son, Phuoc-Chung, The-Chuong, Tieu-Long, Tuyen-Ngoc}
 }
 
 @misc{afps2023_docking,
@@ -135,5 +185,17 @@ title        = {New Thorough Molecular Docking Approach: A Virtual Screening Stu
 year = {2023},
 additional_info         = {Asian Federation for Pharmaceutical Sciences 2023, Ha Noi, Vietnam (Best poster)},
 abbr={AFPS 2023},
-preview={Hoang-Son_Le_AFPS.png}
+preview={Hoang-Son_Le_AFPS.png},
+author_abbr={Hoang-Son, Tieu-Long, Gia-Bao, The-Chuong, Van-Thinh, Thanh-An, Phuoc-Chung, Tuyen-Ngoc}
+}
+
+@misc{afps2023_pdl1,
+bibtex_show={true},
+author       = {To, Van-Thinh and Phan, Tieu-Long and Ngoc Doan, Bao-Vy and Van Nguyen, Phuoc-Chung and Thanh-An, Pham and Lai Le, Hoang-Son and Trinh, The-Chuong and Truong, Tuyen Ngoc},
+title        = {Application of Molecular Similarity and Artificial Neural Networks for PD-L1 inhibitors Virtual Screening},
+year = {2023},
+additional_info         = {Asian Federation for Pharmaceutical Sciences 2023, Ha Noi, Vietnam (Poster presenter)},
+abbr={AFPS 2023},
+preview={Van-Thinh_To_AFPS.png},
+author_abbr={Van-Thinh, Tieu-Long, Bao-Vy, Phuoc-Chung, Thanh-An, Hoang-Son, The-Chuong, Tuyen-Ngoc}
 }

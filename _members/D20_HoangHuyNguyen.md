@@ -28,3 +28,13 @@ My name is Nguyen Hoang Huy. I have completed my academic program at the Univers
 <a href="https://github.com/Nhhuyd20" title="GitHub"><i class="fa-brands fa-github"></i> Nhhuyd20</a>
 
 <a href="https://orcid.org/0009-0006-6763-5344" title="ORCID"><i class="ai ai-orcid"></i> 0009-0006-6763-5344</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Hoang-Huy*] %}
+
+</div>
