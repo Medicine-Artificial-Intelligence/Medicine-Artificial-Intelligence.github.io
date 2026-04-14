@@ -28,3 +28,13 @@ I am currently pursuing a PhD degree in Chemistry at Texas A&M University in the
 <a href="https://github.com/lelaihoangson" title="GitHub"><i class="fa-brands fa-github"></i> lelaihoangson</a>
 
 <a href="https://orcid.org/0000-0002-2473-6309" title="ORCID"><i class="ai ai-orcid"></i> 0000-0002-2473-6309</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Hoang-Son*] %}
+
+</div>

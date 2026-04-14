@@ -25,3 +25,13 @@ Assoc. Prof. Tuyen Ngoc Truong
 Head of Department of Organic Chemistry, School of Pharmacy, University of Medicine and Pharmacy at Ho Chi Minh City (UMP)
 
 <a href="mailto:truongtuyen@ump.edu.vn" title="email"><i class="fa-solid fa-envelope"></i> truongtuyen@ump.edu.vn</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Tuyen-Ngoc*] %}
+
+</div>

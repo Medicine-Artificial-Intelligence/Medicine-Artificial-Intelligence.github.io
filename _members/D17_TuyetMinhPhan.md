@@ -28,3 +28,13 @@ Tuyet-Minh Phan holds a Bachelor’s degree as well as a Master’s Degree in Ph
 <a href="https://github.com/tuyetminhphan" title="GitHub"><i class="fa-brands fa-github"></i> tuyetminhphan</a>
 
 <a href="https://orcid.org/0009-0006-9014-9651" title="ORCID"><i class="ai ai-orcid"></i> 0009-0006-9014-9651</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Tuyet-Minh*] %}
+
+</div>

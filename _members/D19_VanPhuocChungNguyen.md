@@ -26,3 +26,13 @@ related_publications: false
 <a href="https://github.com/phuocchung123" title="GitHub"><i class="fa-brands fa-github"></i> phuocchung123</a>
 
 <a href="https://orcid.org/0009-0000-1825-2781" title="ORCID"><i class="ai ai-orcid"></i> 0009-0000-1825-2781</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Phuoc-Chung*] %}
+
+</div>

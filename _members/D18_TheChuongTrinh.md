@@ -35,3 +35,13 @@ My doctoral research is part of the DIGPHAT project (Multi-scale and Longitudina
 <a href="https://orcid.org/0000-0002-8693-030X" title="ORCID"><i class="ai ai-orcid"></i> 0000-0002-8693-030X</a>
 
 <a href="https://scholar.google.com/citations?user=Agfkp2cAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i> The-Chuong Trinh</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *The-Chuong*] %}
+
+</div>

@@ -7,7 +7,7 @@ importance: 3
 category: "Current members"
 website:
 github: ThinhUMP
-email: tvthinh@ump.edu.vn
+email: tvthinhd19@gmail.com
 linkedin: thinhtovan
 orcid: 0000-0002-7640-0807
 related_publications: false
@@ -21,12 +21,24 @@ related_publications: false
     <div class="col-sm-2"></div>
 </div>
 
-My research interest spans the fields of computer-aided drug design and computer-aided synthesis planning, with a particular emphasis on QSAR modelling and deep generative modelling for de novo molecular design. I aim to develop cutting-edge AI models to address fundamental life science challenges with a broad scientific impact and to optimize and automate the real world drug discovery and design pipeline.
+My research interests are cheminformatics and bioinformatics, with a particular emphasis on computer-aided drug design (CADD), QSAR modeling, generative models (diffusion/flow matching), fragment-based drug design, virtual screening, scoring functions, and docking. I still keep an open mind if other research directions come.
 
-<a href="mailto:tvthinh@ump.edu.vn" title="email"><i class="fa-solid fa-envelope"></i> tvthinh@ump.edu.vn</a>
+I am happy to chat about research or anything else, so feel free to contact me.
+
+<a href="mailto:tvthinhd19@gmail.com" title="email"><i class="fa-solid fa-envelope"></i> tvthinhd19@gmail.com</a>
 
 <a href="https://github.com/ThinhUMP" title="GitHub"><i class="fa-brands fa-github"></i> ThinhUMP</a>
 
 <a href="https://www.linkedin.com/in/thinhtovan" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> thinhtovan</a>
 
 <a href="https://orcid.org/0000-0002-7640-0807" title="ORCID"><i class="ai ai-orcid"></i> 0000-0002-7640-0807</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Van-Thinh*] %}
+
+</div>

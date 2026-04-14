@@ -30,3 +30,13 @@ related_publications: false
 <a href="https://www.linkedin.com/in/tieu-long-phan-b225331a5/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> tieu-long-phan-b225331a5</a>
 
 <a href="https://orcid.org/0000-0002-3532-2064" title="ORCID"><i class="ai ai-orcid"></i> 0000-0002-3532-2064</a>
+
+<h2>Related publications</h2>
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography --query @*[author_abbr ^= *Tieu-Long*] %}
+
+</div>

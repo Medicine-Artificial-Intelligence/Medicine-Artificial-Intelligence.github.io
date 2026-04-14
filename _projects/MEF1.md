@@ -1,16 +1,19 @@
 ---
 layout: page
 title: >
-  <p>Medical Education for the Future (MEF): Generative AI study: Multi-objective approach toward <i>de novo</i> design of dual EGFR and VEGFR inhibitors.</p>
-description:
+  Medical Education for the Future (MEF) 1
+description: >
+  Generative AI study: Multi-objective approach toward de novo design of dual EGFR and VEGFR inhibitors
 img:
 importance: 1
 category: On-going
-related_publications: true
+related_publications: false
 ---
 
-Reserved
+{% include bib_search.liquid %}
 
-KGG: Knowledge-Guided Graph Self-Supervised Learning to Enhance Molecular Property Predictions{% cite kgg %}
+<div class="publications">
 
-Discovery of Vascular Endothelial Growth Factor Receptor 2 Inhibitors Employing Junction Tree Variational Autoencoder with Bayesian Optimization and Gradient Ascent{% cite vegfr2 %}
+{% bibliography --query @*[project=mef1] %}
+
+</div>
