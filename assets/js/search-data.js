@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/posts/index.html";
+            window.location.href = "/blog/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contacts/";
           },
-        },{id: "members-tieu-long-phan",
+        },{id: "post-proqsar-accepted-in-the-journal-of-cheminformatics",
+        
+          title: "ProQSAR accepted in the Journal of Cheminformatics",
+        
+        description: "Published on 22 April 2026, this work presents a modular QSAR workbench built to support reproducible, risk-aware, and deployment-ready molecular property modeling.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/proqsar/";
+          
+        },
+      },{id: "members-tieu-long-phan",
           title: 'Tieu Long Phan',
           description: "TACsy MSCA Doctoral Network, Leipzig University / University of Southern Denmark, 2023–2026",
           section: "Members",handler: () => {
